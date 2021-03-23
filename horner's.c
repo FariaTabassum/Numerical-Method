@@ -9,7 +9,7 @@ int main()
      printf("\nEnter degree of the polynomial X :: ");
      scanf("%d",&n);
      printf("\nEnter coefficient's of the polynomial X :: \n");
-     for(i=0;i<=n;i++)
+     for(i=n;i>=0;i--)
      {
             printf("\nEnter Coefficient of [ X^%d ] :: ",i);
             scanf("%f",&a[i]);
